@@ -1,16 +1,16 @@
 {
-  "name": "notes-app",
-  "version": "1.0.0",
-  "description": "Notes app",
-  "main": "app.js",
-  "type": "module",
-  "@local/src": "file:../../src",
-  "scripts": {
-    "start": "nodemon src/app.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "nodemon": "^2.0.7"
-  }
+	"name": "notes-app",
+	"version": "1.0.0",
+	"description": "Notes app",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon src/app.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"nodemon": "^2.0.7",
+		"validator": "^13.6.0"
+	}
 }
