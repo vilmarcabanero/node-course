@@ -4,8 +4,9 @@
   "description": "Notes app",
   "main": "app.js",
   "type": "module",
+  "@local/src": "file:../../src",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon src/app.js"
   },
   "author": "",
   "license": "ISC",
