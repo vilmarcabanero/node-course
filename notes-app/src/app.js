@@ -1,9 +1,6 @@
-import validator from 'validator'
-// import * as notes from './notes.js'
+// import validator from 'validator'
+import chalk from 'chalk'
 
-// console.log(notes.getNotes())
+const msg = chalk.green.bold.inverse('Success!')
 
-const email = 'vil@entropiya.net'
-const isEmail = validator.isEmail(email)
-const url = validator.isURL('entropiya.net')
-console.log(url)
+console.log(msg)
