@@ -1,6 +1,13 @@
-// import validator from 'validator'
+
 import chalk from 'chalk'
+import * as notes from './notes.js'
 
-const msg = chalk.green.bold.inverse('Success!')
+const command = process.argv[2]
 
-console.log(msg)
+console.log(process.argv)
+
+if (command === 'add') {
+  console.log('Adding note!')
+} else if (command === 'remove') {
+  console.log('Removing note!')
+}
